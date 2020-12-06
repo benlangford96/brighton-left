@@ -1,0 +1,59 @@
+
+Homework 1.
+
+1. Find an image for the heading image and save it in the left-brighton folder x
+2. Find a dummy logo image and save it in the left-brighton folder x
+3. Find an dummy image for the drivers (you can use the same images for each driver) x
+4. Start adding the HTML for the homepage x
+6. Add the class called "driver" to all 9 divs x
+7. Add a heading, image and paragraph inside each of the driver divs x
+8. Change the background colour of the body x
+9. Add styles to the driver class - You might want to add a border, or a background colour etc.x
+
+You can find new colours here : https://www.color-hex.com/
+
+Next session we will go over layout and how to start positioning everything
+#a1332b
+
+
+Homework 2.
+
+1. Create an un-ordered list (ul)). x
+2. For each link add a list item in the un-ordered list x
+3. In each list item add the anchor to the separate page x
+4. Add a span under each anchor add a span with the slash in hint - "span" This span will allow you to style the slash dividerx
+4. Remove the bullet points from the list - hint you can find an example here: https://stackoverflow.com/questions/8289805/getting-rid-of-bullet-points-from-ul
+5. Find out how to make the links sit inline x
+6. Start playing around with margin & padding to make them look nice, also if you want to play with colors, font-size x
+
+Bonus Round
+Create a footer
+
+
+To use inspector in chrome
+Right click then select "inspector"
+If its not there then go to "view", "developer", "inspect elements"
+
+#ddd
+Homework 3.
+
+1. Add Lato Font to the body https://fonts.google.com/specimen/Lato?preview.text=Brighton%20Left&preview.text_type=custom&preview.size=61 x
+2. Using Asos as a reference https://www.asos.com/women/ style the footer x
+3. Add social links to footer (we will add the icons next lesson)x
+4. Add minimum of 1 hover state using :hover. For example on the footer linksx
+
+Homework 4.
+1. Add at least 1 more icon https://www.flaticon.com/
+2.Start the contact page- sort of (changed layout plan)
+3. Add max-width in px to the main image x
+4. Find somewhere to try use flex - don't worry if you get stuck x
+
+
+Homework 5.
+1. Start playing with media queries to make the mobile design look better.
+Ideas:
+- Smaller font size for welcome text on mobile x
+- Center the header title sort of
+- Center the footer x
+
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp

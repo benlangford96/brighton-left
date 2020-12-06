@@ -1,0 +1,296 @@
+body {
+  background-color: #fff;
+  font-family: fantasy;
+  margin: 0;
+}
+
+h1{
+  font-size: 70px;
+  color: white;
+  font-family: 'Lobster Two', cursive;
+  margin: 0;
+
+}
+
+.big-font {
+  font-family: 'Lato', sans-serif;
+  font-size: 60px;
+  color:#2d2d2d;
+}
+
+.small-font {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  color:#2d2d2d;
+}
+
+.cover-photo{
+  font-style: normal;
+  background-color: #a1332b;
+  padding: 20px 20px 0px 20px;
+  margin-bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+.logo{
+  max-width: 80%;
+  max-height: 80%;
+  display: flex;
+}
+
+.driver{
+  width: 100%;
+ padding: 0 10px
+}
+
+.driver-container{
+ display: flex;
+ flex-wrap: wrap;
+ padding: 20px 20px 120px 20px;
+ text-align: center;
+ max-height: 90%;
+ max-width: 90%;
+ margin: auto;
+}
+
+.driver-container img{
+display: inline-block;
+max-width: 100%;
+}
+
+.driver-container p{
+  margin: 10px;
+}
+
+.driver-container h2{
+  margin-top: 80px;
+}
+
+a{
+text-decoration: none;
+color: #black;
+
+}
+
+p{
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+
+}
+
+.menu{
+ font-size: 20px;
+ color: white;
+ margin: 0 0 0 0;
+ background-color: #2d2d2d;
+ display: flex;
+ justify-content: center;
+ flex-direction: row;
+ flex-wrap: wrap;
+
+}
+
+.menu a {
+  color: white;
+  padding: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+.menu a:hover {
+background-color: #eee;
+  color: #2d2d2d;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; /* remove bullet points */
+}
+
+.menu li {
+  display: inline-flex;
+}
+
+.footer{
+  background-color: #D6D6D6;
+  color: #2d2d2d;
+  margin-bottom: 0;
+  padding: 10px 10px 10px 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+.footer ul{
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer li{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.footer a:hover {
+  background-color: #2d2d2d;
+  color: #eee;
+
+}
+
+.footer a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #2d2d2d;
+}
+
+.footer2{
+  background-color: #ddd;
+  color: #2d2d2d;
+  margin-bottom: 0;
+  padding: 40px 10px 40px 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+.footer2 ul{
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer2 li{
+  margin: 0px 0px 0 0px;
+}
+
+.footer2 a {
+    color: #2d2d2d;
+    padding-left: 0;
+  }
+
+.social-icon svg{
+  width: 80px;
+  height: 80px;
+  fill: #2d2d2d;
+}
+
+.social-icon svg:hover{
+  fill: #a1332b;
+}
+
+.master-driver {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.master-driver img{
+   max-width: 80%;
+   max-height: 80%;
+   margin: 0 auto;
+}
+
+.master-driver p{
+  text-align: center;
+}
+
+.master-driver ul{
+   list-style: none;
+   padding: 0;
+}
+
+.welcome {
+   text-align: center;
+   padding: 0 60px;
+ }
+
+.welcome p{
+   font-size: 20px;
+ }
+
+ .contact{
+   display: inline-block;
+ }
+
+/*tablet*/
+@media only screen and (min-width: 750px) {
+   .driver{
+      width: calc(50% - 20px);
+    }
+
+   h1{
+       display: flex;
+       justify-content: flex-start;
+   }
+
+   .cover-photo{
+     padding: 20px 20px 0px 20px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+   justify-content: space-between;
+
+   }
+
+   .logo{
+     max-width: 80%;
+     max-height: 80%;
+   }
+
+ .footer ul{
+     justify-content: flex-end;
+   }
+
+     .welcome p{
+       font-size: 25px;
+   }
+     .menu {
+       justify-content: flex-start;
+
+  }
+}
+
+
+/*desktop*/
+@media only screen and (min-width: 1024px) {
+   .driver{
+       width: calc(33.33% - 20px);
+  }
+
+   h1{
+       font-size: 70px;
+       display: flex;
+       justify-content: flex-start;
+  }
+
+  .footer ul{
+  }
+
+  .cover-photo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 20px 0px 20px;
+   }
+
+   .logo{
+     max-width: 80%;
+     max-height: 80%;
+   }
+
+  .welcome p{
+    font-size: 25px;
+  }
+
+  .menu {
+   justify-content: flex-start;
+
+  }
+}
